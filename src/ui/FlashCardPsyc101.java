@@ -1,6 +1,8 @@
 package ui;
 
-public class FlashCardPsyc101 {
+import javax.swing.*;
+
+public class FlashCardPsyc101 extends JFrame {
 
 
     public static void main(String[] args) {
