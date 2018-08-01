@@ -56,6 +56,9 @@ public class Unit {
 
     public void clearReview() { review.clear(); }
 
+    /**
+     * for testing purpose, clear concepts and review
+     */
     public void clear() {
         concepts.clear();
         review.clear();

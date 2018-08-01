@@ -46,4 +46,10 @@ public class Concept implements Comparable<Concept> {
     public void forget() {
         forgetRate++;
     }
+
+    public void remember() {
+        if (forgetRate > 0) {
+            forgetRate--;
+        }
+    }
 }
