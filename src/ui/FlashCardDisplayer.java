@@ -26,7 +26,7 @@ public class FlashCardDisplayer extends JFrame {
 
         manager = new FlashCardManager();
         load();
-        
+
     }
 
     private void load() {
