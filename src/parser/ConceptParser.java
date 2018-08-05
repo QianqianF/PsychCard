@@ -12,7 +12,7 @@ import java.io.IOException;
 public class ConceptParser {
 
     public static void loadUnit(FlashCardManager manager, String fileName) {
-        int unitNum = getUnitNumber(fileName);
+        int unitNum = getUnitNumber(fileName) - 1;
         Unit unit = new Unit(unitNum);
 
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {

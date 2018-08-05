@@ -39,10 +39,17 @@ public class FlashCardManager {
     }
 
     public void buildReview(int i, int size) {
+
+        clearReview();
+        for (Unit u: units) {
+            u.clearReview();
+        }
+
+
         switch (i) {
             case 0: /* Build list from all units */
                 return; // stub
-            default: // build list from week 0 and above
+            case 1: /** TODO: build list of given size*/
                 int week = 0;
                 while (review.size() + units.get(week).getReview().size() <= size) {
                     review.addAll(units.get(week).getReview());
@@ -52,6 +59,14 @@ public class FlashCardManager {
                 for (int j = 0; j < size - review.size(); j++) {
                     review.add(units.get(week).getReview().get(j));
                 }
+                break;
+
+            default: // build a review list of everything
+                for (Unit u: units) {
+                    u.buildReview(u.getSize());
+                    review.addAll(u.getReview());
+                }
+
         }
 
     }

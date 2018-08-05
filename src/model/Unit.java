@@ -20,6 +20,10 @@ public class Unit {
 
     public ArrayList<Concept> getReview() { return review; }
 
+    public int getSize() {
+        return concepts.size();
+    }
+
     public void addConcept(Concept c) {
         if (c != null && !concepts.contains(c)) {
             concepts.add(c);
@@ -42,6 +46,7 @@ public class Unit {
      * @param size the size of the review list
      */
     public void buildReview(int size) {
+
         for (int i = 0; i < size; i++) {
             Concept c = concepts.poll();
             if (c != null) {
