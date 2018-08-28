@@ -17,8 +17,8 @@ public class testUnit {
 
     @BeforeEach
     public void setUp() {
-        c1 = new Concept("Psyc101", "A Psyc class by UBC", 0);
-        c2 = new Concept("Psyc102", "Another Psyc class by UBC", 0);
+        c1 = new Concept("Psyc101", "A Psyc class by UBC",0);
+        c2 = new Concept("Psyc102", "Another Psyc class by UBC",0);
         u1 = new Unit(1);
     }
 

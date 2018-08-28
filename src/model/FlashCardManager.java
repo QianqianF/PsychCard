@@ -15,6 +15,8 @@ public class FlashCardManager {
     public FlashCardManager() {
         units = new ArrayList<>();
         review = new ArrayList<>();
+        currUnit = 0;
+        currConIndex = -1;
     }
 
     public void addUnit(Unit u) {
@@ -23,13 +25,60 @@ public class FlashCardManager {
         }
     }
 
-    public Concept getCurr() {
-        return currConcept;
+
+    public Concept getNextConcept() {
+        putBack();
+        if (++currConIndex < review.size()) {
+            currConcept = review.get(currConIndex);
+            currUnit = currConcept.getUnitNumber();
+            return currConcept;
+        } else {
+            System.out.println("No more item in the review list!");
+            return null;
+        }
     }
 
-    public Concept getNext() { return null; }
+    public void buildReview(int i, int size) {
 
-    public void buildReview() {}
+        clearReview();
+        for (Unit u: units) {
+            u.clearReview();
+        }
 
+
+        switch (i) {
+            case 0: /* Build list from all units */
+                return; // stub
+            case 1: /** TODO: build list of given size*/
+                int week = 0;
+                while (review.size() + units.get(week).getReview().size() <= size) {
+                    review.addAll(units.get(week).getReview());
+                    week++;
+                    if (week >= units.size()) return;
+                }
+                for (int j = 0; j < size - review.size(); j++) {
+                    review.add(units.get(week).getReview().get(j));
+                }
+                break;
+
+            default: // build a review list of everything
+                for (Unit u: units) {
+                    u.buildReview(u.getSize());
+                    review.addAll(u.getReview());
+                }
+
+        }
+
+    }
+
+    public void putBack() {
+        if (currUnit < units.size()) {
+            units.get(currUnit).addConcept(currConcept);
+        }
+    }
+
+    public void clearReview() {
+        review.clear();
+    }
 
 }
