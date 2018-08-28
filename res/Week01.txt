@@ -7,3 +7,53 @@ humanism: perspective within psychology that emphasizes the potential for good t
 introspection: process by which someone examines their own conscious experience in an attempt to break it into its component parts
 psychoanalytic theory: focus on the role of the unconscious in affecting conscious behavior
 structuralism: understanding the conscious experience through introspection
+William James: functionalism
+Wilhelm Wundt: structuralism
+John Watson: behaviorism
+Ivan Pavlov: behaviorism
+B.F. Skinner: behaviorism
+Wertheimer, Koffka, Kohler: gestalt psych
+Sigmund Freud: psychoanalytic theory
+Abraham Maslow: humanism
+Carl Rogers: humanism, client-centered therapy
+Cognitive revolution: transition from behavior to mental processes, emergence of comp sci, linguistics and neuroscience
+American Psychological Association: professional organization representing psychologists in the United States
+biopsychology: study of how biology influences behavior
+health psychology (biopsychosocial model): perspective that asserts that biology, psychology, and social factors interact to determine an individual’s health
+clinical psychology: area of psychology that focuses on the diagnosis and treatment of psychological disorders and other problematic patterns of behavior
+cognitive psychology: study of cognitions, or thoughts, and their relationship to experiences and actions
+counseling psychology: area of psychology that focuses on improving emotional, social, vocational, and other aspects of the lives of psychologically healthy individuals
+developmental psychology: scientific study of development across a lifespan
+forensic psychology: area of psychology that applies the science and practice of psychology to issues within and related to the justice system
+personality psychology: study of patterns of thoughts and behaviors that make each individual unique
+personality trait: consistent pattern of thought and behavior
+sport and exercise psychology: area of psychology that focuses on the interactions between mental and emotional factors and physical performance in sports, exercise, and other activities
+Five Factor model: OCEAN, Openness, Conscientiousness, Extroversion, Agreeableness, Neuroticism
+Stanley Milgram: study on obedience, considered unethical by today's standard
+Psychiatrist: counseling, prescribe medication
+Amphetamine: Amphetamine (contracted from alpha‑methylphenethylamine) is a potent central nervous system (CNS) stimulant that is used in the treatment of attention deficit hyperactivity disorder (ADHD), narcolepsy, and obesity. Historically, it has been used to treat nasal congestion and depression. Amphetamine is also used as an athletic performance enhancer and cognitive enhancer, and recreationally as an aphrodisiac and euphoriant.
+Cocaine: Cocaine, also known as coke, is a strong stimulant mostly used as a recreational drug. It is commonly snorted, inhaled, or injected into the veins. Mental effects may include loss of contact with reality, an intense feeling of happiness, or agitation. Physical symptoms may include a fast heart rate, sweating, and large pupils.
+Heroin: Heroin is an opioid pain killer. It is also used less commonly as a cough suppressant and as an antidiarrhoeal. Heroin is used as a recreational drug for its euphoric effects. Frequent and regular administration is associated with tolerance and physical dependence.
+Belief perseverance: Belief perseverance is maintaining a belief despite new information that firmly contradicts it. Since rationality involves conceptual flexibility, belief perseverance is consistent with the view that human beings act at times in an irrational manner.
+Fechner-Weber Law: (Weber)just-noticeable difference between two stimuli is proportional to the magnitude of the stimuli; (Fechner)subjective sensation is proportional to the logarithm of the stimulus intensity
+Naive realism: human tendency to believe that we see the world around us objectively, and that people who disagree with us must be uninformed, irrational, or biased
+phrenology: measure of one's skull
+psychophysics: the relationship between physical stimuli and the sensations and perceptions they produce
+Asomatognosia: loss of recognition or awareness of part of the body
+Dichotomy: A dichotomy is a partition of a whole (or a set) into two parts (subsets).
+epigenetics: the study of cellular and physiological phenotypic trait variations that result from external or environmental factors that switch genes on and off and affect how cells express genes. DNA methylation and histone modification
+Pineal gland: a small endocrine gland that produces melatonin, a serotonin derived hormone, which affects the modulation of sleep patterns in both seasonal and circadian rhythms
+
+
+
+
+
+
+
+
+
+
+
+
+
+

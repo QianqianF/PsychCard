@@ -1,0 +1,8 @@
+grammar: set of rules that are used to convey meaning through the use of a lexicon
+language: communication system that involves using words to transmit information from one individual to another
+lexicon: the words of a given language
+morpheme: smallest unit of language that conveys some type of meaning
+overgeneralization: extension of a rule that exists in a given language to an exception to the rule
+phoneme: basic sound unit of a given language
+semantics: process by which we derive meaning from morphemes and words
+syntax: manner by which words are organized into sentences

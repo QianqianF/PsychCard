@@ -6,6 +6,8 @@ public class FlashCardManager {
 
     private static final int REVIEW_LIST_SIZE = 40;
 
+    private final String END = "No more item in the review list!";
+
     private ArrayList<Unit> units;
     private ArrayList<Concept> review;
     private Concept currConcept;
@@ -33,8 +35,8 @@ public class FlashCardManager {
             currUnit = currConcept.getUnitNumber();
             return currConcept;
         } else {
-            System.out.println("No more item in the review list!");
-            return null;
+            System.out.println(END);
+            return new Concept(END,"", currUnit);
         }
     }
 
@@ -42,6 +44,7 @@ public class FlashCardManager {
 
         clearReview();
         for (Unit u: units) {
+            u.addConcept(u.getReview());
             u.clearReview();
         }
 
@@ -72,13 +75,21 @@ public class FlashCardManager {
     }
 
     public void putBack() {
+
+        if (currConcept != null) {
+            if (currConcept.getWord().equals(END)) return;
+            else currConcept.remember();
+        }
         if (currUnit < units.size()) {
+            units.get(currUnit).getReview().remove(currConcept);
             units.get(currUnit).addConcept(currConcept);
         }
     }
 
     public void clearReview() {
         review.clear();
+        currUnit = 0;
+        currConIndex = -1;
     }
 
 }

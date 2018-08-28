@@ -1,0 +1,18 @@
+explicit memory (declaritive): memories we consciously try to remember and recall, i.e. episodic memory, semantic memory
+implicit memory (non-declaritive): memories that are not part of our consciousness, i.e. procedual memory, emotional conditioning
+three functions of memory: encoding, storage and retrieval
+Atkinson-Shiffrin model (A-S): memory model that states we process information through three systems: sensory memory, short-term memory, and long-term memory
+memory consolidation: active rehearsal to move information from short-term memory into long-term memory
+arousal theory: strong emotions trigger the formation of strong memories and weaker emotional experiences form weaker memories
+engram: physical trace of memory
+equipotentiality hypothesis: some parts of the brain can take over for damaged parts in forming and storing memories
+flashbulb memory: exceptionally clear recollection of an important event
+Transience:	Accessibility of memory decreases over time	Forget events that occurred long ago
+absentmindedness: Forgetting caused by lapses in attention	Forget where your phone is
+Blocking: Accessibility of information is temporarily blocked	Tip of the tongue
+Misattribution:	Source of memory is confused	Recalling a dream memory as a waking memory
+Suggestibility	False memories	Result from leading questions
+Bias:	Memories distorted by current belief system	Align memories to current beliefs
+Persistence	Intrusion: Inability to forget undesirable memories	Traumatic events
+misinformation effect paradigm: after exposure to incorrect information, a person may misremember the original event
+Equipotentiality: the brain can co-opt other areas to take over the role of the damaged part
