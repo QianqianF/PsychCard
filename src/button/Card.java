@@ -9,25 +9,22 @@ import java.awt.event.MouseEvent;
 public class Card extends Button {
 
     private boolean isWord = false;
-    private JTextArea desCard;
+    private JButton desCard;
 
     public Card(FlashCardDisplayer displayer, JComponent parent) { super(displayer, parent); }
 
     @Override
     protected void createButton(JComponent parent) {
-        Font font = new Font(Font.SANS_SERIF, Font.PLAIN, 16);
+        Font font = new Font(Font.SANS_SERIF, Font.BOLD, 24);
 
         button = new JButton("");
-        button.setSize(new Dimension(FlashCardDisplayer.BUTTON_WIDTH, FlashCardDisplayer.BUTTON_HEIGHT));
+        button.setPreferredSize(new Dimension(FlashCardDisplayer.CARD_WIDTH, FlashCardDisplayer.CARD_HEIGHT));
         button.setFont(font);
 
 
-        desCard = new JTextArea("");
-        desCard.setSize(new Dimension(FlashCardDisplayer.BUTTON_WIDTH, FlashCardDisplayer.BUTTON_HEIGHT*2/3));
-        desCard.setEditable(false);
-        desCard.setLineWrap(true);
-        desCard.setWrapStyleWord(true);
-        desCard.setFont(font);
+        desCard = new JButton("<html>");
+        desCard.setPreferredSize(new Dimension(FlashCardDisplayer.CARD_WIDTH, FlashCardDisplayer.CARD_HEIGHT));
+        desCard.setFont(new Font("SANS_SERIEF", Font.PLAIN, 16));
         addToParent(parent);
     }
 
@@ -38,7 +35,7 @@ public class Card extends Button {
                 button.setText(displayer.updateConcept().getWord());
                 desCard.setText("");
             } else {
-                desCard.setText(displayer.getCurrConcept().getDescription());
+                desCard.setText(withLayout(80, displayer.getCurrConcept().getDescription()));
             }
             isWord = !isWord;
         });
@@ -55,11 +52,15 @@ public class Card extends Button {
 
     }
 
-    public void setVisible() {
-        button.setVisible(true);
-    }
-
-    public void hide() {
-        button.setVisible(false);
+    /**
+     * text wrapping block
+     * @param width width of the text block in percentage
+     */
+    private String withLayout(int width, String text) {
+        String str1 = "<html><center>" +
+                "<body style='font-size: 16em; width: ";
+        String str2 = "%" + "'>" + "<h>";
+        String str3 = "</h></center>";
+        return str1 + width + str2 + text + str3;
     }
 }

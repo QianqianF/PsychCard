@@ -1,0 +1,20 @@
+Gestalt principles: figure-ground segregation, group by similarity and proximity, law of good continuation, closure
+Merkel's disk: detects light pressure
+Pacinian corpuscle: detects transient pressure and high frequecy vibration
+Ruffini corpuscle: detects stretch and body position
+Meissner's corpuscle: detects pressure and low frequency vibration
+nociceptor: receptors that detect pain
+proprioception: perception of body position
+Inferior colliculus: the principal midbrain nucleus of the auditory pathway and receives input from several peripheral brainstem nuclei in the auditory pathway, as well as inputs from the auditory cortex.
+Organ of Corti: The organ of Corti, or spiral organ, is the receptor organ for hearing and is located in the mammalian cochlea.
+Presbycusis: Presbycusis (also spelled presbyacusis, from Greek presbys), or age-related hearing loss, is the cumulative effect of aging on hearing
+Stereocilia: In the inner ear, stereocilia are the mechanosensing organelles of hair cells, which respond to fluid motion in numerous types of animals for various functions, including hearing and balance.
+Three membrane structure in the cochlea: basilar membrane, tectorial membrane, organ of Corti
+Exteroceptive: Exteroceptive senses are senses that perceive the body's own position, motion, and state, known as proprioceptive senses.
+Interoceptive: Interoceptive senses are senses that perceive sensations in internal organs
+Mechanoreceptor: A mechanoreceptor is a sensory receptor that responds to mechanical pressure or distortion
+five basic tastes: sweetness, sourness, bitterness, saltiness, unami
+olfactory path: olfactory sensory receptor on nasal ephithelium -> glomerulus -> mitral cell -> olfactory bulb
+gustatory path: taste receptors in taste buds around papillae-> 
+endogenous orienting: occurs when attention is oriented according to an observer's goals or desires, allowing the focus of attention to be manipulated by the demands of a task.
+exogenous orienting: considered to be reflexive and automatic and is caused by a sudden change in the periphery

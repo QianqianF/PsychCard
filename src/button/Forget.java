@@ -5,20 +5,23 @@ import ui.FlashCardDisplayer;
 import javax.swing.*;
 import java.awt.event.MouseEvent;
 
-public class SaveProgress extends Button {
+public class Forget extends Button {
 
-    public SaveProgress(FlashCardDisplayer displayer, JComponent parent) {
+    public Forget(FlashCardDisplayer displayer, JComponent parent) {
         super(displayer, parent);
     }
 
     @Override
     protected void createButton(JComponent parent) {
-
+        button = new JButton("forgot");
+        addToParent(parent);
     }
 
     @Override
     protected void addListener() {
-
+        button.addActionListener((e) -> {
+            displayer.getCurrConcept().forget();
+        });
     }
 
     @Override

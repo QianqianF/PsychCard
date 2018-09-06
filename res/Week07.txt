@@ -1,0 +1,11 @@
+Aqueous Humor: The aqueous humour is a transparent, watery fluid similar to plasma, but containing low protein concentrations. It is secreted from the ciliary epithelium, a structure supporting the lens.
+Ciliary Body: The ciliary body is a part of the eye that includes the ciliary muscle, which controls the shape of the lens, and the ciliary epithelium, which produces the aqueous humor. The ciliary body is part of the uvea, the layer of tissue that delivers oxygen and nutrients to the eye tissues.
+Choroid: The choroid, also known as the choroidea or choroid coat, is the vascular layer of the eye, containing connective tissue, and lying between the retina and the sclera.
+lateral geniculate nucleus (LGN): (also called the lateral geniculate body or lateral geniculate complex) is a relay center in the thalamus for the visual pathway. It receives a major sensory input from the retina. 
+Photopigments: unstable pigments that undergo a chemical change when they absorb light.
+retinal pigment epithelium (RPE): the pigmented cell layer just outside the neurosensory retina that nourishes retinal visual cells
+Sclera: The sclera, also known as the white of the eye, is the opaque, fibrous, protective, outer layer of the eye containing collagen and elastic fiber.
+Vitreous Body: The vitreous body is the clear gel that fills the space between the lens and the retina of the eyeball of humans and other vertebrates.
+Fusiform Face Area (FFA): The fusiform face area (FFA) is a part of the human visual system that, it is speculated, is specialized for facial recognition in a holistic way
+Occipital face area (OFA): The occipital face area is activated by the visual perception of single features of the face, for example, the nose and mouth, and preferred combination of two-eyes over other combinations.
+prosopagnosia: also called face blindness, a cognitive disorder of face perception where the ability to recognize familiar faces
