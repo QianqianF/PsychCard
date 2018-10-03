@@ -52,9 +52,9 @@ public class FlashCardManager {
         switch (i) {
             case 0: /* Build list from all units */
                 return; // stub
-            case 1: /** TODO: build list of given size*/
+            case 1: /** TODO: build list of given size */
                 int week = 0;
-                while (review.size() + units.get(week).getReview().size() <= size) {
+                while (review.size() + units.get(week).getSize() <= size) {
                     review.addAll(units.get(week).getReview());
                     week++;
                     if (week >= units.size()) return;

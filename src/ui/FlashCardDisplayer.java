@@ -55,7 +55,7 @@ public class FlashCardDisplayer extends JFrame {
     }
 
     public void generateNewReview() {
-        manager.buildReview(-1,0);
+        manager.buildReview(-1,3);
     }
 
     private void load() {
@@ -63,7 +63,7 @@ public class FlashCardDisplayer extends JFrame {
             ConceptParser.loadUnit(manager, "res/" + file);
         }
         // build review with given size
-        manager.buildReview(-1,0);
+        generateNewReview();
     }
 
     private void createCard() {
